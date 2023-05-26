@@ -1,0 +1,91 @@
+body{
+    background-color:peachpuff
+}
+
+nav{
+    font-display: flex;
+    letter-spacing: 2px;
+    background: rgb(246, 124, 80);
+    padding: 5px;
+    font-display: flex;
+    text-align:left;
+    padding-right: 10px;
+    top: 0;
+    z-index: 100;
+
+}
+.logo{
+    font-size: 35px;
+    color: white;
+}
+nav ul{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+    display: inline;
+    align-items: center;
+}
+
+a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+.nav-left .nav-right{
+    display: flex;
+    align-items:center;
+    
+}
+.nav-right {
+    text-align:right;
+    margin-bottom: 1px;
+    background: white;
+    width: 350px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+}
+.nav-right input{
+    width: 100%;
+    background: transparent;
+    padding: 10px;
+    outline: none;
+    border: 0;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 5%;
+}
+.left-sidebar{
+    background-color:rgb(249, 182, 157);
+    flex-basis: 25%;
+    position: sticky;
+    top: 70px;
+    align-self: flex-start;
+    height: 100vh;
+}
+
+.main-content{
+    flex-basis: 47%;
+
+}
+.imp-links p{
+    text-decoration: none;
+    font-display: flex;
+    text-align: left;
+    margin-bottom: 30px;
+    color:whitesmoke;
+    width:fit-content;
+    margin-right: 1800px;
+    color: black;
+}
+.sideinfo a{
+    color: black;
+}
